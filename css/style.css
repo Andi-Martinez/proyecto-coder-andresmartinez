@@ -1,0 +1,450 @@
+/*!CONFIGURACION GENERAl*/
+
+a{
+text-decoration: none
+}                                               /*me saca las viñetas y lineas de las listas ordenadas*/
+*{ 
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/*!CONFIGURACION GENERAl*/
+
+/*!HEADER Y BARRA DE NAVEGACION CON BOOTSTRAP*/
+a.navbar-brand{
+font-size: 18px;
+font-weight: 800;
+}
+a.navbar-brand:hover{
+color: white;
+}
+.navbar-toggler-icon{
+font-size: 20px;
+}
+.navbar-toggler-icon:hover{
+color: white;
+}
+a.nav-link.active{
+font-size: 15px;
+font-weight: 800;
+}
+a.nav-link.active:hover{
+color: white;
+}
+.navbar{
+width: 100%;
+height: 100%; 
+background-color: orange;
+}
+.navbar img{
+height: 80px;
+width: 90px;
+padding: 2px;
+} 
+.col div label{
+font-size: 20px;
+}
+.col div button{
+background-color: black;
+color: white;
+margin-top: 10px;
+padding: 10px;
+}
+
+/*!HEADER Y BARRA DE NAVEGACION*/
+
+main{background-color: orange;}
+
+/*!HERO MAS LAS 2 FOTOS---------------------*/
+.hero h1{                              /*Hero:veni a conocer uno de los mejores destinos del mundo*/
+color: rgba(255, 166, 0, 0.829);
+font-size: 50px;
+font-weight: 800;
+height: calc(100vh - 100px);                   /*calculo adonde resto tamaño de nav, para que el hero ocupe todo el vh*/
+background-image:url(../img/pescamar.png) ;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+text-align: center;                 /*hasta aca me gusta*/
+}
+.subtituloindex h2{                                    /*Contenido pagina index*/
+text-align: center;                                   
+color: white;
+font-size: 25px;
+text-decoration: overline;
+padding: 40px;
+height: 40px;
+}
+.contenidoindex img{
+width: 100%;
+height: 550px;
+padding:20px;
+}
+.contenidoindex p{
+color: rgb(17, 16, 16);
+font-size: 20px;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 0px;
+padding: 10px;
+}
+
+/*! FIN HERO MAS LAS 2 FOTOS--------------------*/
+
+/*! FIN PAGINAS DE QUIENES SOMOS MAS 2 FOTOS---------------*/
+
+.titulo h1 {                                  /*Titulos de cada pagina*/                        
+background-color:black;
+color: white;
+text-align: center;
+font-size: 45px;
+}
+.subtitulo  h2 {                                      /*Subtitulos de cada pagina*/         
+text-align: center;
+font-size: 35px;
+color: white;
+text-decoration: overline;
+margin-top: 30px;
+padding: 10px;
+} 
+.contenido div {                                /*Contenido de Quienes somos*/ 
+display: flex;
+align-items: center;
+height:400px;
+padding: 10px;
+}
+.contenido img{
+border: 2px solid green;
+width: 350px;
+height: 300px;
+border-radius: 50%;
+}
+.contenido p{
+color: black;
+font-size: 20px;
+margin: 0px;
+text-align: justify;
+}
+/*! FIN PAGINAS DE QUIENES SOMOS MAS 2 FOTOS---------------*/
+
+
+
+/*!PAGINAS DE CONOCE NUESTRAS SALIDAS MAS 5 FOTOS---------------*/
+
+.salidas div {               /*Contenido de Salidas*/  
+display: flex;
+align-items: center;
+height: 320px;
+}
+.salidas img{
+width: 350px;
+height: 300px;
+border: 2px solid green;
+border-radius: 50%;
+margin: 10px;
+}
+.salidas p {
+color: black;
+font-size: 18px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: justify;
+} 
+
+/*! FIN PAGINAS DE CONOCE NUESTRAS SALIDAS MAS 5 FOTOS---------------*/
+
+
+
+/*!STAFF DE GUIAS MAS 2 FOTOS---------------*/
+
+.guias div{                         /*Contenido de Guias*/ 
+display: flex;
+align-items: center;
+height: 400px;
+}
+.guias img{ 
+border: 2px solid green;
+width: 350px;
+height: 300px;
+border-radius: 50%;
+margin: 10px;
+}
+.guias p{
+color: black;
+font-size: 18px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: justify;
+}
+/*! FIN STAFF DE GUIAS MAS 2 FOTOS---------------*/
+
+
+/*! PRINCIPIO DE PAGINAS DE GALERIA CON GRID---------------*/
+
+.grid-container {                                    
+display: grid;
+grid-template-columns: 1fr 1fr 1fr; /*cantidad columnas y tamaño.Tmb puedo usar repeat (3, 1fr*/
+grid-template-rows: 1fr 1fr 1fr ; /*cantidad de filas y tamaño*/
+gap: 20px; /*es como un margin pero solo para grids, y tambien puedo trabajar con gap de column o de row*/
+padding: 20px;
+}   /*debo entrar con GRID CONTAINER, sino no me lo toma en el index*/   
+.grid-container div img{
+width: 100%;                   /*use este nro porque me ocupo el 100% del container*/
+height: 100%; 
+}                 /*use este nro porque me ocupo el 100% del container*/
+
+
+
+
+/*!FIN PAGINAS DE GALERIA---------------*/
+
+
+/*!PAGINAS DE FOOTER ---------------*/
+
+footer{ 
+height: 480px;
+display: flex;
+justify-content: space-around;
+background-color: black;
+}
+.footerpaginas{
+height: 260px;
+}
+.footerpaginas section h2{
+font-size: 20px;
+text-align: center;
+}
+.footerpaginas section div img{
+height: 25px;
+width: 25px;  
+}
+.footerpaginas section div h3{
+font-size: 20px; 
+}
+button.btn.btn-primary{
+    display: flex;
+    align-items: center;
+   text-align: center;
+}
+
+
+
+.tituloredes h2{                                                  /*Titulo de redes*/
+color: white;
+font-size: 25px; 
+margin-bottom: 20px; 
+text-decoration: overline;
+margin-top: 18px;
+display: flex;
+align-items: center;
+}
+.tituloformulario h2{                                                  /*Titulo de formulario*/
+color: white;
+font-size: 25px; 
+margin-bottom: 20px; 
+text-decoration: overline;
+margin-top: 20px;
+}
+.redes div{
+display: flex;
+}
+.redes div h3{
+color: white;
+font-size: 25px; 
+margin-top: 18px;
+}
+.redes div img{
+height: 30px;
+width: 30px;
+margin-top: 20px;
+}
+
+
+
+
+/*!MEDIA QUERY*/
+
+@media screen and (max-width: 600px){
+
+.navbar img{
+height: 60px;
+width: 80px;
+padding: 2px;
+}
+a.navbar-brand{
+font-size: 13px;
+font-weight: 800;  
+}
+a.nav-link.active{
+font-size: 10px;
+font-weight: 800;
+ }
+.hero h1{                              /*Hero:veni a conocer uno de los mejores destinos del mundo*/
+color: white;
+font-size:25px;
+font-weight: 800;
+height: calc(100vh - 100px);                   /*calculo adonde resto tamaño de nav, para que el hero ocupe todo el vh*/
+background-image:url(../img/pescamar.png) ;
+background-size: cover;
+background-position: left;
+display: flex;
+align-items: end;
+text-align: center;
+}
+.subtituloindex{
+padding: 0px;
+}
+.subtituloindex h2{ 
+display: flex;    
+justify-content: center;                               /*Contenido pagina index*/
+text-align: center;                                   
+color: white;
+font-size: 15px;
+text-decoration: overline;
+padding: 20px;
+}
+.contenidoindex img{
+width: 100%;
+height: 300px;
+padding:10px ;
+}
+.contenidoindex p{
+color: rgb(17, 16, 16);
+font-size: 15px;
+text-align: justify;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 0px;
+}
+
+
+.subtitulo  h2 {                                      /*Subtitulos de cada pagina*/         
+text-align: center;
+font-size: 20px;
+color: white;
+text-decoration: overline;
+margin-top: 20px;
+padding: 20px;}
+.contenido div {                                /*Contenido de Quienes somos*/ 
+display: flex;
+flex-direction: column;
+align-items: center;
+height:400px;
+padding: 5px;
+}
+.contenido img{
+border: 2px solid green;
+width: 250px;
+height: 250px;
+border-radius: 50%;
+}
+.contenido p{
+color: black;
+font-size: 15px;
+text-align: center;
+}
+
+
+.guias div{                         /*Contenido de Guias*/ 
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 500px;
+}
+.guias img{ 
+border: 2px solid green;
+width: 250px;
+height: 200px;
+border-radius: 50%;
+}
+.guias p{
+color: black;
+font-size: 16px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: justify;
+padding: 10px;
+}
+
+
+.grid-container{
+grid-template-columns: 1fr ;
+grid-template-rows: 200px 200px 200px 200px 200px 200px 200px
+}
+
+.galeria{
+padding-top: 10px;
+}
+footer{
+height: 700px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.tituloredes h2{
+font-size: 20px;
+text-align: center;
+}
+.tituloformulario h2{
+font-size: 20px;
+text-align: center;  
+}
+.redes div img{
+width: 25px;
+height: 25px;   
+}
+.redes div h3{
+font-size: 25px;
+}
+.formulario div label{
+height: 5px;
+}
+}
+
+
+@media screen and (max-width: 690px){
+.navbar img{
+height: 60px;
+width: 80px;
+padding: 2px;
+}
+a.navbar-brand{
+font-size: 13px;
+font-weight: 800;  
+}
+a.nav-link.active{
+font-size: 10px;
+font-weight: 800;
+}
+.subtitulo  h2 {                                      /*Subtitulos de cada pagina*/         
+text-align: center;
+font-size: 25px;
+color: white;
+text-decoration: overline;
+margin-top: 10px;
+padding: 20px;}
+.salidas div {               /*Contenido de Salidas*/  
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 480px;
+padding: 5px;
+}
+.salidas img{
+width: 200px;
+height: 200px;
+border: 2px solid green;
+border-radius: 50%;
+}
+.salidas p {
+color: black;
+font-size: 15px;
+text-align: justify;
+padding: 10px;
+} 
+}
+/*!Pseudoclase, me sirve para modificar botones de click*/
+
