@@ -1,0 +1,40 @@
+/*!Variable aplicada a index*/
+$color-principal: orange;
+$color-secundario: black;
+$color-terciario: white;
+
+
+/*!Lista aplicada a todos los titulos de pagina*/
+$colores: orange, black, white;
+$font-size: 30px, 45px;
+
+.titulo {
+    h1 {
+        color: nth($colores, 3);
+        font-size: nth($font-size, 2);
+
+    }
+}
+/*!Extend en pagina de guias*/
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.losguias {
+    @extend %flex-center;
+}
+/*!Mixin en en pagina de quienes somos*/
+@mixin flex ($flex, $justify, $align){
+display: $flex;
+justify-content: $justify;
+align-items: $align;
+}
+
+.contenido{
+    div{
+        @include flex (flex, center, center)
+    }
+}

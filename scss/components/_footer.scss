@@ -1,0 +1,118 @@
+footer {
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+
+    .tituloredes {
+        h2 {
+            color: white;
+            font-size: 25px;
+            margin-bottom: 20px;
+            text-decoration: overline;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Anton", sans-serif;
+        }
+    }
+
+    .redes {
+        div {
+            display: flex;
+            justify-content: center;
+           
+
+            img {
+                height: 30px;
+                width: 30px;
+                margin-top: 20px;
+
+
+            }
+
+            h3 {
+                color: white;
+                font-size: 20px;
+                margin-top: 23px;
+                font-family: "Anton", sans-serif;
+    
+
+                &:hover {
+                    color: orange
+                }
+            }
+        }
+    }
+
+    .tituloformulario {
+        h2 {
+            color: white;
+            font-size: 25px;
+            margin-bottom: 20px;
+            text-decoration: overline;
+            margin-top: 20px;
+            font-family: "Anton", sans-serif;
+
+        }
+    }
+
+    .formulario {
+        form {
+            div {
+                label {
+                    height: 5px;
+
+                }
+
+                button.btn.btn-primary {
+                    background-color: orange;
+                    color: black;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 30px;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+footer.footerpaginas {
+    height: 300px;
+
+    .tituloredes {
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            font-family: "Anton", sans-serif;
+        }
+    }
+
+    .redes {
+        div {
+
+            img {
+                height: 30px;
+                width: 30px;
+            }
+
+            h3 {
+                font-size: 25px;
+                font-family: "Anton", sans-serif;
+            }
+
+
+
+        }
+    }
+}

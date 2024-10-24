@@ -1,0 +1,539 @@
+@charset "UTF-8";
+/*!Variable aplicada a index*/
+/*!Lista aplicada a todos los titulos de pagina*/
+.titulo h1 {
+  color: white;
+  font-size: 45px; }
+
+/*!Extend en pagina de guias*/
+.losguias {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*!Mixin en en pagina de quienes somos*/
+.contenido div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+a {
+  text-decoration: none; }
+
+/*me saca las viñetas y lineas de las listas ordenadas*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header nav.navbar {
+  width: 100%;
+  height: 100%;
+  background-color: orange; }
+
+header div.container-fluid a.navbar-brand {
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Anton", sans-serif; }
+  header div.container-fluid a.navbar-brand:hover {
+    color: white; }
+  header div.container-fluid a.navbar-brand img {
+    height: 80px;
+    width: 90px;
+    padding: 2px; }
+
+header div.container-fluid div.collapse ul.navbar-nav li a.nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif; }
+  header div.container-fluid div.collapse ul.navbar-nav li a.nav-link:hover {
+    color: white; }
+
+main {
+  background-color: orange;
+  /*!Pagina Quienes somos*/
+  /*!Pagina de Salidas*/
+  /*!Pagina de Guias*/
+  /*!Pagina de Guias*/ }
+  main .hero h1 {
+    color: rgba(255, 166, 0, 0.897);
+    font-size: 60px;
+    font-weight: 400;
+    height: calc(100vh - 100px);
+    background: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.178)), url(../img/pescamar.png);
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  main .subtituloindex h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-decoration: overline;
+    padding: 40px;
+    height: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; }
+  main .contenidoindex div img {
+    width: 100%;
+    height: 600px;
+    padding: 20px; }
+  main .contenidoindex div p {
+    color: #111010;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-family: "Anton", sans-serif; }
+  main .titulo h1 {
+    background-color: black;
+    text-align: center;
+    font-family: "Anton", sans-serif; }
+  main .subtitulo h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-decoration: overline;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: "Anton", sans-serif; }
+  main .contenido div {
+    height: 450px;
+    padding: 10px; }
+    main .contenido div div img {
+      border: 2px solid green;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%; }
+    main .contenido div div p {
+      color: black;
+      font-size: 25px;
+      margin: 0px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+  main .subtitulosalidas h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-decoration: overline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: "Anton", sans-serif; }
+  main .lassalidas div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; }
+    main .lassalidas div div img {
+      width: 350px;
+      height: 340px;
+      border: 2px solid green;
+      border-radius: 50%;
+      margin: 10px; }
+    main .lassalidas div div p {
+      color: black;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+    main .lassalidas div div img {
+      width: 350px;
+      height: 340px;
+      border: 2px solid green;
+      border-radius: 50%;
+      margin: 10px; }
+    main .lassalidas div div p {
+      color: black;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+    main .lassalidas div div img {
+      width: 350px;
+      height: 340px;
+      border: 2px solid green;
+      border-radius: 50%;
+      margin: 10px; }
+    main .lassalidas div div p {
+      color: black;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+    main .lassalidas div div img {
+      width: 350px;
+      height: 340px;
+      border: 2px solid green;
+      border-radius: 50%;
+      margin: 10px; }
+    main .lassalidas div div p {
+      color: black;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+  main .subtituloguias h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-decoration: overline;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: "Anton", sans-serif; }
+  main .losguias div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; }
+    main .losguias div div img {
+      border: 2px solid green;
+      width: 350px;
+      height: 340px;
+      border-radius: 50%;
+      margin: 10px; }
+    main .losguias div div p {
+      color: black;
+      font-size: 25px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+    main .losguias div div img {
+      border: 2px solid green;
+      width: 350px;
+      height: 340px;
+      border-radius: 50%;
+      margin: 10px; }
+    main .losguias div div p {
+      color: black;
+      font-size: 25px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      font-family: "Anton", sans-serif; }
+  main .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px; }
+    main .grid-container .item-1 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-2 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-3 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-4 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-5 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-6 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-6 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-7 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-8 img {
+      width: 100%;
+      height: 100%; }
+    main .grid-container .item-9 img {
+      width: 100%;
+      height: 100%; }
+
+footer {
+  height: 480px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black; }
+  footer .tituloredes h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: overline;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Anton", sans-serif; }
+  footer .redes div {
+    display: flex;
+    justify-content: center; }
+    footer .redes div img {
+      height: 30px;
+      width: 30px;
+      margin-top: 20px; }
+    footer .redes div h3 {
+      color: white;
+      font-size: 20px;
+      margin-top: 23px;
+      font-family: "Anton", sans-serif; }
+      footer .redes div h3:hover {
+        color: orange; }
+  footer .tituloformulario h2 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: overline;
+    margin-top: 20px;
+    font-family: "Anton", sans-serif; }
+  footer .formulario form div label {
+    height: 5px; }
+  footer .formulario form div button.btn.btn-primary {
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px; }
+    footer .formulario form div button.btn.btn-primary:hover {
+      color: white; }
+
+footer.footerpaginas {
+  height: 300px; }
+  footer.footerpaginas .tituloredes h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Anton", sans-serif; }
+  footer.footerpaginas .redes div img {
+    height: 30px;
+    width: 30px; }
+  footer.footerpaginas .redes div h3 {
+    font-size: 25px;
+    font-family: "Anton", sans-serif; }
+
+@media screen and (max-width: 465px) {
+  header nav.navbar {
+    width: 100%;
+    height: 100%;
+    background-color: orange; }
+  header div.container-fluid a.navbar-brand {
+    font-size: 20px;
+    font-weight: 800; }
+    header div.container-fluid a.navbar-brand:hover {
+      color: white; }
+    header div.container-fluid a.navbar-brand img {
+      height: 60px;
+      width: 80px;
+      padding: 2px; }
+  header div.container-fluid div.collapse ul.navbar-nav li a.nav-link {
+    font-size: 15px;
+    font-weight: 400; }
+    header div.container-fluid div.collapse ul.navbar-nav li a.nav-link:hover {
+      color: white; } }
+
+@media screen and (max-width: 664px) {
+  main.main .hero h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    height: calc(100vh - 100px);
+    /*calculo adonde resto tamaño de nav, para que el hero ocupe todo el vh*/
+    background: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.178)), url(../img/pescamar.png);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: start;
+    text-align: center; }
+  main.main .subtituloindex h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: overline;
+    padding: 40px;
+    height: 40px;
+    margin-top: 30px; }
+  main.main .contenidoindex div img {
+    width: 100%;
+    height: 550px;
+    padding: 20px; }
+  main.main .contenidoindex div p {
+    color: #111010;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px; } }
+
+@media screen and (max-width: 664px) and (max-width: 550px) {
+  footer {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .tituloredes h2 {
+      font-size: 25px; }
+    footer .tituloformulario h2 {
+      font-size: 25px; } }
+
+@media screen and (max-width: 731px) {
+  main .subtitulo h2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: overline;
+    margin-top: 10px;
+    padding: 10px; }
+  main .contenido div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 5px; }
+    main .contenido div div img {
+      border: 2px solid green;
+      width: 250px;
+      height: 230px;
+      border-radius: 50%; }
+    main .contenido div div p {
+      color: black;
+      font-size: 20px;
+      text-align: justify; } }
+
+@media screen and (max-width: 717px) {
+  section.subtituloguias h2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: overline;
+    margin-top: 10px;
+    padding: 10px; }
+  section.losguias div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px; }
+    section.losguias div div img {
+      border: 2px solid green;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%; }
+    section.losguias div div p {
+      color: black;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      padding: 10px; }
+    section.losguias div div img {
+      border: 2px solid green;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%; }
+    section.losguias div div p {
+      color: black;
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: justify;
+      padding: 10px; } }
+
+@media screen and (max-width: 675px) {
+  main.subtitulosalidas h2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: overline;
+    margin-top: 10px;
+    padding: 20px; }
+  section.lassalidas div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    padding: 3px; }
+    section.lassalidas div div img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid green;
+      border-radius: 50%; }
+    section.lassalidas div div p {
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      padding: 10px; }
+    section.lassalidas div div img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid green;
+      border-radius: 50%; }
+    section.lassalidas div div p {
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      padding: 10px; }
+    section.lassalidas div div img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid green;
+      border-radius: 50%; }
+    section.lassalidas div div p {
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      padding: 10px; }
+    section.lassalidas div div img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid green;
+      border-radius: 50%; }
+    section.lassalidas div div p {
+      color: black;
+      font-size: 15px;
+      text-align: justify;
+      padding: 10px; } }
+
+@media screen and (max-width: 575px) {
+  section.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px; }
+    section.grid-container div.item-1 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-2 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-3 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-4 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-5 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-6 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-7 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-8 img {
+      width: 100%;
+      height: 100%; }
+    section.grid-container div.item-9 img {
+      width: 100%;
+      height: 100%; } }
