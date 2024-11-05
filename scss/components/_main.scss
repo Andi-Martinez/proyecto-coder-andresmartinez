@@ -7,7 +7,7 @@
              font-size: 60px;
              font-weight: 400;
              height: calc(100vh - 100px);
-             background:linear-gradient(rgba(0, 0, 0, 0.178),rgba(0, 0, 0, 0.178)),url(../img/pescamar.png);
+             background: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.178)), url(../img/pescamar.png);
              font-family: "Anton", sans-serif;
              font-style: normal;
              background-size: cover;
@@ -15,12 +15,13 @@
              display: flex;
              align-items: center;
              text-align: center;
-           
+             
+
          }
      }
 
      .subtituloindex {
-    
+
          h2 {
              text-align: center;
              color: $color-terciario;
@@ -31,10 +32,10 @@
              font-family: "Anton", sans-serif;
              font-weight: 400;
              display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-             
+             justify-content: center;
+             align-items: center;
+             margin-top: 30px;
+
          }
      }
 
@@ -42,7 +43,7 @@
          div {
              img {
                  width: 100%;
-                 height: 600px;
+                 height: 550px;
                  padding: 20px;
              }
          }
@@ -67,7 +68,7 @@
              background-color: $color-secundario;
              text-align: center;
              font-family: "Anton", sans-serif;
-         
+
          }
      }
 
@@ -80,7 +81,7 @@
              margin-top: 30px;
              padding: 10px;
              font-family: "Anton", sans-serif;
-           
+
          }
      }
 
@@ -91,7 +92,7 @@
 
              div {
                  img {
-                     border: 2px solid green;
+                     border: 2px solid black;
                      width: 350px;
                      height: 350px;
                      border-radius: 50%;
@@ -109,7 +110,8 @@
              }
          }
      }
-/*!Pagina de Salidas*/
+
+     /*!Pagina de Salidas*/
      .subtitulosalidas {
          h2 {
              text-align: center;
@@ -134,7 +136,7 @@
                  img {
                      width: 350px;
                      height: 340px;
-                     border: 2px solid green;
+                     border: 2px solid black;
                      border-radius: 50%;
                      margin: 10px;
                  }
@@ -149,7 +151,7 @@
                      margin-right: 15px;
                      text-align: justify;
                      font-family: "Anton", sans-serif;
-                     
+
                  }
              }
 
@@ -157,29 +159,7 @@
                  img {
                      width: 350px;
                      height: 340px;
-                     border: 2px solid green;
-                     border-radius: 50%;
-                     margin: 10px;
-                 }
-             }
-
-             div {
-                 p {
-
-                     color: black;
-                     font-size: 20px;
-                     margin-left: 15px;
-                     margin-right: 15px;
-                     text-align: justify;
-                     font-family: "Anton", sans-serif;
-                 }
-             }
-
-             div {
-                 img {
-                     width: 350px;
-                     height: 340px;
-                     border: 2px solid green;
+                     border: 2px solid black;
                      border-radius: 50%;
                      margin: 10px;
                  }
@@ -201,7 +181,29 @@
                  img {
                      width: 350px;
                      height: 340px;
-                     border: 2px solid green;
+                     border: 2px solid black;
+                     border-radius: 50%;
+                     margin: 10px;
+                 }
+             }
+
+             div {
+                 p {
+
+                     color: black;
+                     font-size: 20px;
+                     margin-left: 15px;
+                     margin-right: 15px;
+                     text-align: justify;
+                     font-family: "Anton", sans-serif;
+                 }
+             }
+
+             div {
+                 img {
+                     width: 350px;
+                     height: 340px;
+                     border: 2px solid black;
                      border-radius: 50%;
                      margin: 10px;
                  }
@@ -221,7 +223,8 @@
 
          }
      }
-/*!Pagina de Guias*/
+
+     /*!Pagina de Guias*/
      .subtituloguias {
          h2 {
              text-align: center;
@@ -243,7 +246,7 @@
 
              div {
                  img {
-                     border: 2px solid green;
+                     border: 2px solid black;
                      width: 350px;
                      height: 340px;
                      border-radius: 50%;
@@ -264,7 +267,7 @@
 
              div {
                  img {
-                     border: 2px solid green;
+                     border: 2px solid black;
                      width: 350px;
                      height: 340px;
                      border-radius: 50%;
@@ -286,7 +289,7 @@
          }
      }
 
-/*!Pagina de Guias*/
+     /*!Pagina de Guias*/
      .grid-container {
          display: grid;
          grid-template-columns: 1fr 1fr 1fr;
@@ -302,78 +305,87 @@
 
 
          }
+
          .item-2 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-3 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-3 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-4 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-4 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-5 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-5 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-6 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-6 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-6 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-6 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-7 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-7 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-8 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-8 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
-        .item-9 {
-            img {
-                width: 100%;
-                height: 100%;
-            }
+         }
+
+         .item-9 {
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
 
 
-        }
+         }
      }
 
 
